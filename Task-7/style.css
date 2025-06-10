@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  font-family: "Orbitron", sans-serif;
+  background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+  color: #fff;
+  overflow-x: hidden;
+}
+
+.universe {
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2rem;
+  color: #00ffe7;
+  text-shadow: 0 0 10px #00ffe7;
+}
+
+#reloadBtn {
+  margin: 10px;
+  padding: 10px 20px;
+  background: #00ffe7;
+  color: #000;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+#reloadBtn:hover {
+  transform: scale(1.05);
+  background: #00c7b7;
+}
+
+#loader {
+  display: none;
+  font-size: 1.2rem;
+  margin-top: 20px;
+  color: #ffdd00;
+}
+
+#userContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.user-card {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid #00ffe7;
+  border-radius: 12px;
+  padding: 20px;
+  margin: 10px;
+  width: 260px;
+  text-align: left;
+  box-shadow: 0 0 15px #00ffe755;
+  transition: transform 0.3s;
+}
+
+.user-card:hover {
+  transform: translateY(-10px);
+}
+
+.user-card h3 {
+  color: #ffdd00;
+}
+
+#errorMsg {
+  margin-top: 20px;
+  color: #ff4f4f;
+  font-size: 1.2rem;
+}
